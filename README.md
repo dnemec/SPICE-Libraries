@@ -35,7 +35,7 @@ These are the folders in which you will have to transfer the library files you a
 
 ### Locating the library directory
 In case of MacOS installation of LTSpice IV; usually the library directory is located inside of "LTspice.app" App folder in "Applications" directory.
-You may open the LTspice.app via right clicking the icon and selecting "Show Package Contents".
+You may open the LTspice.app via Finder right clicking the icon and selecting "Show Package Contents".
 After opening the .app you will have to go to the following directory:
 ```
 LTspice.app/Contents/lib
