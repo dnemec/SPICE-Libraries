@@ -60,7 +60,7 @@ Following example represents icluding the CMOS Logic 74hct series library
 .inc 74hct.lib
 ```
 
-## Basics of LTspice simulations
+## Learning the SPICE simulation environment
 Here are few quite useful links for learning the SPICE3 synthax and general use of LTspice software:
 
 * [Linear Technology Youtube channel playlist](https://www.youtube.com/watch?v=JWm8z5fyhP8&list=PL4vooS_8RnzE4EoE27QssuxsccFmspbRP)
