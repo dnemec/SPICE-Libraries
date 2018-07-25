@@ -10,19 +10,19 @@ If your library is included in this repository feel free to contact me at dnemec
 First of all you need to have LTspice installed on your computer using Windows or MacOS operating system.
 
 Download links for the software:
-* [LTSpice VII for Windows 7, 8 and 10](http://ltspice.analog.com/software/LTspiceXVII.exe)
+* [LTSpice XVII for Windows 7, 8 and 10](http://ltspice.analog.com/software/LTspiceXVII.exe)
 * [LTSpice IV for MacOS 10.7+](http://ltspice.analog.com/software/LTspiceIV.dmg)
 * [LTSpice IV for Windows XP (End of Life)](http://ltspice.analog.com/software/LTspiceIV.exe/)
 
 Cheatsheets and "Getting Started Guide" for LTSpice can be downloaded from following links:
-* [LTSpice XVII cheatsheet](http://www.analog.com/media/en/simulation-models/spice-models/LTspice_ShortcutFlyer.pdf)
-* [LTSpice XVII MacOS shortcuts](http://www.analog.com/media/en/simulation-models/spice-models/LTspiceShortcutsForMacOSX.pdf)
+* [LTSpice XVII Windows cheatsheet](http://www.analog.com/media/en/simulation-models/spice-models/LTspice_ShortcutFlyer.pdf)
+* [LTSpice IV MacOS shortcuts](http://www.analog.com/media/en/simulation-models/spice-models/LTspiceShortcutsForMacOSX.pdf)
 * [LTSpice Getting Started Guide](http://www.analog.com/media/en/simulation-models/spice-models/LTspiceGettingStartedGuide.pdf)
 
 ## Installing the LTSpice libraries on Microsoft Windows operating system
 
 ### Locating the library directory
-In case of Windows installation of LTspice VII; usually the library directory is located inside of LTspice folder in "My Documents" directory.
+In case of Windows installation of LTspice XVII; usually the library directory is located inside of LTspice folder in "My Documents" directory.
 After opening the LTspice folder you will have to open "lib" folder.
 This directory represents the library location composed of "cmp", "sub" and "sym" folders.
 *"sub" folder represents the location of subcircuit files.
