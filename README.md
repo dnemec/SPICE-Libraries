@@ -1,13 +1,13 @@
-# Collection of LTSpice simulation circuits and libraries
+# Collection of LTspice simulation circuits and libraries
 
-This is a brief colleciton of LTSpice files collected from various online sources such as Yahoo groups that are slowly dieing, therefore I uploaded all its contents here so it doesn't get lost in void of internet.
+This is a brief colleciton of LTspice files collected from various online sources such as Yahoo groups that are slowly dieing, therefore I uploaded all its contents here so it doesn't get lost in void of internet.
 
 All rights are reserved to their respective owners and authors of these files whom are unknown to me and I hope this repository won't cause any problems.
 If your library is included in this repository feel free to contact me at dnemec@outlook.com and I will remove it upon request.
 
-## Installing the LTSpice software
+## Installing the LTspice software
 
-First of all you need to have LTSpice installed on your computer using Windows or MacOS operating system.
+First of all you need to have LTspice installed on your computer using Windows or MacOS operating system.
 
 Download links for the software:
 * [LTSpice VII for Windows 7, 8 and 10](http://ltspice.analog.com/software/LTspiceXVII.exe)
@@ -22,7 +22,7 @@ Cheatsheets and "Getting Started Guide" for LTSpice can be downloaded from follo
 ## Installing the LTSpice libraries on Microsoft Windows operating system
 
 ### Locating the library directory
-In case of Windows installation of LTSpice VII; usually the library directory is located inside of LTspice folder in "My Documents" directory.
+In case of Windows installation of LTspice VII; usually the library directory is located inside of LTspice folder in "My Documents" directory.
 After opening the LTspice folder you will have to open "lib" folder.
 This directory represents the library location composed of "cmp", "sub" and "sym" folders.
 *"sub" folder represents the location of subcircuit files.
@@ -31,7 +31,7 @@ This directory represents the library location composed of "cmp", "sub" and "sym
 These are the folders in which you will have to transfer the library files you are interested in.
 .lib and .sub files are supposed to be copied in "sub" folder, .asy files are supposed to be copied in "sym" folder.
 
-## Installing the LTSpice libraries on Apple MacOS operating system
+## Installing the LTspice libraries on Apple MacOS operating system
 
 ### Locating the library directory
 In case of MacOS installation of LTSpice IV; usually the library directory is located inside of "LTspice.app" App folder in "Applications" directory.
