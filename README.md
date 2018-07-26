@@ -23,45 +23,45 @@ Cheatsheets and "Getting Started Guide" for LTSpice can be downloaded from follo
 
 ### Locating the library directory
 In case of Windows installation of LTspice XVII; usually the library directory is located inside of LTspice folder in "My Documents" directory.
-After opening the LTspice folder you will have to open "lib" folder.
-This directory represents the library location composed of "cmp", "sub" and "sym" folders.
-*"sub" folder represents the location of subcircuit files.
-*"sym" folder represents the locaiton of symbol files.
+After opening the LTspice folder you will have to open "lib" folder.  
+This directory represents the library location composed of "cmp", "sub" and "sym" folders.  
+*"sub" folder represents the location of subcircuit files.  
+*"sym" folder represents the locaiton of symbol files.  
 
-These are the folders in which you will have to transfer the library files you are interested in.
-.lib and .sub files are supposed to be copied in "sub" folder, .asy files are supposed to be copied in "sym" folder.
+These are the folders in which you will have to transfer the library files you are interested in.  
+.lib and .sub files are supposed to be copied in "sub" folder, .asy files are supposed to be copied in "sym" folder.  
 
 ## Installing the LTspice libraries on Apple MacOS operating system
 
 ### Locating the library directory
-In case of MacOS installation of LTSpice IV; usually the library directory is located inside of "LTspice.app" App folder in "Applications" directory.
-You may open the LTspice.app via Finder right clicking the icon and selecting "Show Package Contents".
-After opening the .app you will have to go to the following directory:
+In case of MacOS installation of LTSpice IV; usually the library directory is located inside of "LTspice.app" App folder in "Applications" directory.  
+You may open the LTspice.app via Finder right clicking the icon and selecting "Show Package Contents".  
+After opening the .app you will have to go to the following directory:  
 ```
 LTspice.app/Contents/lib
 ```
-This directory represents the library location composed of "cmp", "sub" and "sym" folders.
-*"sub" folder represents the location of subcircuit files.
-*"sym" folder represents the locaiton of symbol files.
+This directory represents the library location composed of "cmp", "sub" and "sym" folders.  
+*"sub" folder represents the location of subcircuit files.  
+*"sym" folder represents the locaiton of symbol files.  
 
-These are the folders in which you will have to transfer the library files you are interested in.
-.lib and .sub files are supposed to be copied in "sub" folder, .asy files are supposed to be copied in "sym" folder.
+These are the folders in which you will have to transfer the library files you are interested in.  
+.lib and .sub files are supposed to be copied in "sub" folder, .asy files are supposed to be copied in "sym" folder.  
 
 ## Including the library in your simulation
-Inclusion of libraries in simulation is done according to the SPICE3 synthax.
-When drawing the schematic for the simulation you have to right click on the drawing and then select Draft -> SPICE directive.
-Shortcut for this is just pressing the S key on your keyboard.
-Under "How to netlist this text select "SPICE directive" and write the following:
+Inclusion of libraries in simulation is done according to the SPICE3 synthax.  
+When drawing the schematic for the simulation you have to right click on the drawing and then select Draft -> SPICE directive.  
+Shortcut for this is just pressing the S key on your keyboard.  
+Under "How to netlist this text select "SPICE directive" and write the following:  
 ```
 .inc yourlibraryname.lib
 ```
-Following example represents icluding the CMOS Logic 74hct series library
+Following example represents icluding the CMOS Logic 74hct series library  
 ```
 .inc 74hct.lib
 ```
 
 ## Learning the SPICE simulation environment
-Here are few quite useful links for learning the SPICE3 synthax and general use of LTspice software:
+Here are few quite useful links for learning the SPICE3 synthax and general use of LTspice software:  
 
 * [Linear Technology Youtube channel playlist](https://www.youtube.com/watch?v=JWm8z5fyhP8&list=PL4vooS_8RnzE4EoE27QssuxsccFmspbRP)
 * [SPICE website, University of California, Berkeley](https://bwrcs.eecs.berkeley.edu/Classes/IcBook/SPICE/)
